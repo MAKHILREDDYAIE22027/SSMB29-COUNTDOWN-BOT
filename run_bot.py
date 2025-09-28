@@ -32,12 +32,12 @@ days_to_update = (update_date - today).days
 
 # --- Tweet Composition Logic ---
 if days_to_update > 1:
-    tweet_text = f"🔥 {days_to_update} days until the big #SSMB29 update!\n\n#MaheshBabu #SSRajamouli"
+    tweet_text = f" {days_to_update}"
 elif days_to_update == 1:
-    tweet_text = "The #SSMB29 update is TOMORROW! Get ready! 💥\n\n#MaheshBabu #SSRajamouli"
+    tweet_text = "A DAY TO GO FOR SSMB29 UPDATE MONTH"
 elif days_to_update == 0:
     # This is the special tweet for November 1st
-    tweet_text = "GLOBETROTTER MONTH HAS ARRIVED\n\n#SSMB29"
+    tweet_text = "GLOBETROTTER MONTH HAS ARRIVED"
 else:
     # This is the message that will post every day AFTER Nov 1st
     tweet_text = "Stay tuned for the latest on #SSMB29 following the recent update! News could drop anytime.\n\n#MaheshBabu #SSRajamouli"
